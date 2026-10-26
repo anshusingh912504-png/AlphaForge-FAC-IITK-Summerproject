@@ -1,0 +1,613 @@
+symbol,company,sector,year,valuation_rank,profitability_rank,growth_rank,leverage_quality_rank,composite_fundamental_score,composite_fundamental_rank
+AMAT,Applied Materials,Information Technology,2017,23.0,4.0,2.0,14.0,0.7839052287581699,1.0
+MU,Micron Technology,Information Technology,2017,2.0,11.0,12.0,27.0,0.7741013071895425,2.0
+SWKS,Skyworks Solutions,Information Technology,2017,14.0,3.0,63.0,7.0,0.7450980392156863,3.0
+CTSH,Cognizant,Information Technology,2017,17.0,13.0,83.0,2.0,0.6793300653594772,4.0
+REGN,Regeneron,Health Care,2017,85.0,8.0,13.0,6.0,0.6744281045751634,5.0
+TXN,Texas Instruments,Information Technology,2017,36.0,5.0,73.0,3.0,0.6593137254901961,6.0
+DXCM,DexCom,Health Care,2017,64.0,23.0,13.0,12.0,0.6458333333333334,7.0
+ODFL,Old Dominion Freight Line,Industrials,2017,18.0,68.0,23.0,11.0,0.6417483660130718,8.0
+PCAR,Paccar,Industrials,2017,8.0,71.0,22.0,23.0,0.6409313725490197,9.0
+FAST,Fastenal,Industrials,2017,34.0,18.0,66.0,1.0,0.6388888888888888,10.0
+META,Meta Platforms,Communication Services,2017,84.0,15.0,4.0,16.0,0.6376633986928104,11.0
+BIIB,Biogen,Health Care,2017,19.0,2.0,89.0,28.0,0.6311274509803921,12.0
+BIDU,Baidu,Communication Services,2017,20.0,78.0,8.0,60.0,0.6086601307189543,13.0
+NXPI,NXP,Information Technology,2017,9.0,37.0,62.0,58.0,0.5996732026143791,14.0
+NTES,NetEase,Communication Services,2017,65.0,9.0,66.0,10.0,0.5988562091503268,15.0
+VRTX,Vertex Pharmaceuticals,Health Care,2017,102.0,25.0,2.0,8.0,0.5857843137254901,16.0
+ASML,ASML Holding,Information Technology,2017,67.0,74.0,6.0,20.0,0.5816993464052288,17.0
+ORLY,O'Reilly Automotive,Consumer Discretionary,2017,33.0,1.0,60.0,84.0,0.5808823529411764,18.0
+INTC,Intel,Information Technology,2017,13.0,34.0,79.0,59.0,0.5776143790849673,19.0
+BKNG,Booking Holdings,Consumer Discretionary,2017,86.0,10.0,17.0,33.0,0.5747549019607843,20.0
+ILMN,"Illumina, Inc.",Health Care,2017,93.0,26.0,10.0,13.0,0.5731209150326797,21.0
+DDOG,Datadog,Information Technology,2017,37.0,18.0,38.0,29.0,0.556781045751634,22.0
+WBA,Walgreens Boots Alliance,Consumer Staples,2017,16.0,24.0,98.0,18.0,0.556781045751634,22.0
+ALGN,Align Technology,Health Care,2017,100.0,27.0,11.0,9.0,0.5535130718954249,24.0
+ADBE,Adobe Inc.,Information Technology,2017,95.0,22.0,9.0,24.0,0.5490196078431373,25.0
+COST,Costco,Consumer Staples,2017,28.0,21.0,75.0,37.0,0.5490196078431373,25.0
+AAPL,Apple Inc.,Information Technology,2017,21.0,20.0,75.0,73.0,0.5420751633986929,27.0
+JD,JD.com,Consumer Discretionary,2017,90.0,78.0,1.0,21.0,0.5375816993464052,28.0
+SGEN,Seagen,Health Care,2017,63.0,33.0,74.0,15.0,0.5375816993464052,28.0
+MTCH,Match Group,Communication Services,2017,29.0,86.0,24.0,30.0,0.5351307189542484,30.0
+SIRI,Sirius XM,Communication Services,2017,62.0,14.0,68.0,34.0,0.5322712418300654,31.0
+CMCSA,Comcast,Communication Services,2017,4.0,60.0,61.0,92.0,0.5281862745098038,32.0
+EA,Electronic Arts,Communication Services,2017,61.0,82.0,21.0,26.0,0.5236928104575163,33.0
+GILD,Gilead Sciences,Health Care,2017,11.0,6.0,102.0,81.0,0.5220588235294118,34.0
+VRSN,Verisign,Information Technology,2017,35.0,16.0,85.0,35.0,0.5187908496732027,35.0
+EXC,Exelon,Utilities,2017,1.0,83.0,30.0,94.0,0.5175653594771242,36.0
+AVGO,Broadcom Inc.,Information Technology,2017,72.0,76.0,5.0,68.0,0.5163398692810458,37.0
+ADP,ADP,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+ADSK,Autodesk,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+CRWD,CrowdStrike,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+CSCO,Cisco,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+DOCU,DocuSign,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+INTU,Intuit,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+KLAC,KLA Corporation,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+LRCX,Lam Research,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+MCHP,Microchip Technology,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+MRVL,Marvell Technology,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+MSFT,Microsoft,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+NVDA,Nvidia,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+OKTA,"Okta, Inc.",Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+PANW,Palo Alto Networks,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+PAYX,Paychex,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+SPLK,Splunk,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+TEAM,Atlassian,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+TMUS,T-Mobile US,Communication Services,2017,3.0,66.0,78.0,90.0,0.5130718954248366,38.0
+WDAY,"Workday, Inc.",Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+ZM,Zoom Video Communications,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+ZS,Zscaler,Information Technology,2017,37.0,38.0,38.0,38.0,0.5130718954248366,38.0
+SBUX,Starbucks,Consumer Discretionary,2017,60.0,7.0,93.0,32.0,0.5126633986928104,59.0
+GOOG,Alphabet Inc. (Class C),Communication Services,2017,69.0,80.0,71.0,4.0,0.494281045751634,60.0
+CPRT,Copart,Industrials,2017,26.0,69.0,64.0,65.0,0.4934640522875817,61.0
+CTAS,Cintas,Industrials,2017,26.0,69.0,64.0,65.0,0.4934640522875817,61.0
+GOOGL,Alphabet Inc. (Class A),Communication Services,2017,71.0,80.0,71.0,4.0,0.49264705882352944,63.0
+MNST,Monster Beverage,Consumer Staples,2017,92.0,60.0,27.0,19.0,0.4873366013071895,64.0
+AEP,American Electric Power,Utilities,2017,6.0,88.0,25.0,101.0,0.48284313725490197,65.0
+CSX,CSX Corporation,Industrials,2017,11.0,90.0,31.0,93.0,0.48080065359477114,66.0
+KDP,Keurig Dr Pepper,Consumer Staples,2017,25.0,17.0,86.0,87.0,0.47589869281045755,67.0
+AMD,AMD,Information Technology,2017,91.0,59.0,18.0,64.0,0.4673202614379085,68.0
+IDXX,Idexx Laboratories,Health Care,2017,94.0,58.0,59.0,17.0,0.46691176470588236,69.0
+ABNB,Airbnb,Consumer Discretionary,2017,74.0,27.0,32.0,74.0,0.465686274509804,70.0
+DLTR,Dollar Tree,Consumer Discretionary,2017,74.0,27.0,32.0,74.0,0.465686274509804,70.0
+LCID,Lucid Motors,Consumer Discretionary,2017,74.0,27.0,32.0,74.0,0.465686274509804,70.0
+LULU,Lululemon,Consumer Discretionary,2017,74.0,27.0,32.0,74.0,0.465686274509804,70.0
+ROST,Ross Stores,Consumer Discretionary,2017,74.0,27.0,32.0,74.0,0.465686274509804,70.0
+CEG,Constellation Energy,Utilities,2017,6.0,88.0,37.0,99.0,0.4575163398692811,75.0
+NFLX,Netflix,Communication Services,2017,87.0,92.0,7.0,83.0,0.4526143790849673,76.0
+PYPL,PayPal,Information Technology,2017,82.0,94.0,16.0,69.0,0.44730392156862747,77.0
+AMGN,Amgen,Health Care,2017,31.0,12.0,100.0,80.0,0.4440359477124183,78.0
+MAR,Marriott International,Consumer Discretionary,2017,74.0,35.0,28.0,85.0,0.4419934640522876,79.0
+CHTR,Charter Communications,Communication Services,2017,5.0,102.0,20.0,102.0,0.4330065359477124,80.0
+KHC,Kraft Heinz,Consumer Staples,2017,15.0,99.0,80.0,89.0,0.4248366013071896,81.0
+EBAY,eBay,Consumer Discretionary,2017,29.0,64.0,91.0,81.0,0.4199346405228758,82.0
+MDLZ,Mondelez International,Consumer Staples,2017,24.0,101.0,26.0,91.0,0.417483660130719,83.0
+MRNA,Moderna,Health Care,2017,89.0,75.0,77.0,24.0,0.4142156862745098,84.0
+FTNT,Fortinet,Information Technology,2017,99.0,83.0,19.0,31.0,0.4125816993464052,85.0
+FISV,Fiserv,Information Technology,2017,59.0,71.0,69.0,88.0,0.4011437908496732,86.0
+AMZN,Amazon,Consumer Discretionary,2017,101.0,91.0,15.0,71.0,0.3909313725490196,87.0
+ISRG,Intuitive Surgical,Health Care,2017,96.0,85.0,70.0,22.0,0.39052287581699346,88.0
+QCOM,Qualcomm,Information Technology,2017,22.0,87.0,101.0,61.0,0.39052287581699346,88.0
+CDNS,Cadence Design Systems,Information Technology,2017,97.0,62.0,81.0,35.0,0.38807189542483655,90.0
+ADI,Analog Devices,Information Technology,2017,66.0,98.0,29.0,86.0,0.37418300653594777,91.0
+PEP,PepsiCo,Consumer Staples,2017,81.0,35.0,96.0,79.0,0.3586601307189542,92.0
+SNPS,Synopsys,Information Technology,2017,73.0,73.0,93.0,67.0,0.3574346405228758,93.0
+XEL,Xcel Energy,Utilities,2017,9.0,95.0,95.0,100.0,0.3521241830065359,94.0
+HON,Honeywell,Industrials,2017,70.0,65.0,97.0,72.0,0.35130718954248363,95.0
+PDD,Pinduoduo,Consumer Discretionary,2017,74.0,63.0,82.0,95.0,0.34068627450980393,96.0
+ANSS,Ansys,Information Technology,2017,88.0,96.0,84.0,63.0,0.3370098039215686,97.0
+ATVI,Activision Blizzard,Communication Services,2017,82.0,67.0,99.0,62.0,0.33619281045751637,98.0
+MELI,MercadoLibre,Consumer Discretionary,2017,98.0,76.0,87.0,70.0,0.315359477124183,99.0
+TSLA,"Tesla, Inc.",Consumer Discretionary,2017,58.0,97.0,88.0,97.0,0.3035130718954248,100.0
+AZN,AstraZeneca,Health Care,2017,32.0,100.0,90.0,96.0,0.29656862745098045,101.0
+VRSK,Verisk,Industrials,2017,68.0,93.0,92.0,98.0,0.2565359477124183,102.0
+MU,Micron Technology,Information Technology,2018,2.0,2.0,1.0,9.0,0.8684640522875816,1.0
+LRCX,Lam Research,Information Technology,2018,13.0,5.0,11.0,10.0,0.7973856209150326,2.0
+META,Meta Platforms,Communication Services,2018,27.0,7.0,17.0,4.0,0.7569444444444443,3.0
+AMAT,Applied Materials,Information Technology,2018,14.0,2.0,50.0,26.0,0.7005718954248366,4.0
+ODFL,Old Dominion Freight Line,Industrials,2018,16.0,43.0,22.0,7.0,0.6915849673202613,5.0
+BIIB,Biogen,Health Care,2018,18.0,2.0,46.0,38.0,0.681781045751634,6.0
+INTC,Intel,Information Technology,2018,6.0,39.0,23.0,43.0,0.6650326797385621,7.0
+CTSH,Cognizant,Information Technology,2018,19.0,26.0,68.0,2.0,0.6633986928104575,8.0
+GOOG,Alphabet Inc. (Class C),Communication Services,2018,43.0,51.0,9.0,5.0,0.6617647058823528,9.0
+WBA,Walgreens Boots Alliance,Consumer Staples,2018,10.0,32.0,25.0,43.0,0.6609477124183007,10.0
+GOOGL,Alphabet Inc. (Class A),Communication Services,2018,44.0,51.0,9.0,5.0,0.6605392156862744,11.0
+REGN,Regeneron,Health Care,2018,33.0,11.0,48.0,15.0,0.6515522875816994,12.0
+BIDU,Baidu,Communication Services,2018,7.0,39.0,30.0,50.0,0.6474673202614378,13.0
+SWKS,Skyworks Solutions,Information Technology,2018,23.0,6.0,87.0,12.0,0.6454248366013072,14.0
+AVGO,Broadcom Inc.,Information Technology,2018,11.0,45.0,14.0,56.0,0.6446078431372548,15.0
+FAST,Fastenal,Industrials,2018,36.0,25.0,59.0,1.0,0.6417483660130718,16.0
+VRTX,Vertex Pharmaceuticals,Health Care,2018,73.0,34.0,3.0,11.0,0.6397058823529411,17.0
+PCAR,Paccar,Industrials,2018,4.0,69.0,33.0,37.0,0.6241830065359477,18.0
+TXN,Texas Instruments,Information Technology,2018,41.0,10.0,59.0,14.0,0.6241830065359476,19.0
+KLAC,KLA Corporation,Information Technology,2018,39.0,1.0,57.0,42.0,0.6213235294117647,20.0
+DLTR,Dollar Tree,Consumer Discretionary,2018,24.0,15.0,55.0,38.0,0.6200980392156863,21.0
+SBUX,Starbucks,Consumer Discretionary,2018,50.0,9.0,20.0,57.0,0.6131535947712419,22.0
+ATVI,Activision Blizzard,Communication Services,2018,25.0,31.0,35.0,47.0,0.6119281045751633,23.0
+BKNG,Booking Holdings,Consumer Discretionary,2018,53.0,8.0,27.0,60.0,0.5992647058823529,24.0
+NVDA,Nvidia,Information Technology,2018,102.0,36.0,6.0,3.0,0.5882352941176471,25.0
+SPLK,Splunk,Information Technology,2018,47.0,60.0,13.0,40.0,0.5870098039215687,26.0
+ROST,Ross Stores,Consumer Discretionary,2018,57.0,18.0,59.0,8.0,0.5866013071895424,27.0
+NXPI,NXP,Information Technology,2018,3.0,14.0,78.0,78.0,0.5829248366013071,28.0
+ABNB,Airbnb,Consumer Discretionary,2018,60.0,19.0,3.0,81.0,0.573937908496732,29.0
+DOCU,DocuSign,Information Technology,2018,62.0,29.0,15.0,51.0,0.5706699346405228,30.0
+ALGN,Align Technology,Health Care,2018,96.0,20.0,8.0,19.0,0.5698529411764706,31.0
+SIRI,Sirius XM,Communication Services,2018,45.0,17.0,48.0,52.0,0.5698529411764706,31.0
+ADI,Analog Devices,Information Technology,2018,29.0,46.0,24.0,73.0,0.5563725490196079,33.0
+ASML,ASML Holding,Information Technology,2018,54.0,42.0,42.0,22.0,0.5563725490196078,34.0
+FTNT,Fortinet,Information Technology,2018,95.0,27.0,2.0,48.0,0.5510620915032679,35.0
+AMGN,Amgen,Health Care,2018,32.0,22.0,31.0,85.0,0.5486111111111112,36.0
+CTAS,Cintas,Industrials,2018,58.0,66.0,19.0,28.0,0.5465686274509803,37.0
+MRVL,Marvell Technology,Information Technology,2018,46.0,63.0,44.0,30.0,0.5355392156862745,38.0
+GILD,Gilead Sciences,Health Care,2018,12.0,12.0,97.0,72.0,0.531045751633987,39.0
+DDOG,Datadog,Information Technology,2018,62.0,23.0,47.0,46.0,0.5302287581699348,40.0
+ZM,Zoom Video Communications,Information Technology,2018,62.0,33.0,53.0,28.0,0.5277777777777778,41.0
+LCID,Lucid Motors,Consumer Discretionary,2018,60.0,27.0,37.0,59.0,0.5228758169934641,42.0
+MNST,Monster Beverage,Consumer Staples,2018,71.0,24.0,63.0,23.0,0.5212418300653595,43.0
+IDXX,Idexx Laboratories,Health Care,2018,87.0,30.0,45.0,17.0,0.520016339869281,44.0
+JD,JD.com,Consumer Discretionary,2018,55.0,76.0,35.0,24.0,0.5179738562091503,45.0
+CPRT,Copart,Industrials,2018,81.0,59.0,40.0,12.0,0.5175653594771242,46.0
+SGEN,Seagen,Health Care,2018,37.0,48.0,83.0,26.0,0.514297385620915,47.0
+LULU,Lululemon,Consumer Discretionary,2018,69.0,37.0,65.0,19.0,0.5093954248366013,48.0
+AAPL,Apple Inc.,Information Technology,2018,48.0,53.0,32.0,71.0,0.5065359477124183,49.0
+HON,Honeywell,Industrials,2018,26.0,71.0,54.0,66.0,0.5065359477124183,49.0
+EA,Electronic Arts,Communication Services,2018,80.0,16.0,76.0,21.0,0.5036764705882353,51.0
+TMUS,T-Mobile US,Communication Services,2018,9.0,61.0,87.0,68.0,0.5,52.0
+EBAY,eBay,Consumer Discretionary,2018,15.0,50.0,65.0,89.0,0.49346405228758167,53.0
+OKTA,"Okta, Inc.",Information Technology,2018,51.0,55.0,73.0,31.0,0.49183006535947715,54.0
+WDAY,"Workday, Inc.",Information Technology,2018,49.0,79.0,21.0,70.0,0.4910130718954248,55.0
+AMD,AMD,Information Technology,2018,100.0,43.0,18.0,35.0,0.488562091503268,56.0
+INTU,Intuit,Information Technology,2018,88.0,48.0,52.0,16.0,0.488562091503268,56.0
+CDNS,Cadence Design Systems,Information Technology,2018,86.0,41.0,51.0,34.0,0.4820261437908497,58.0
+NTES,NetEase,Communication Services,2018,59.0,21.0,91.0,31.0,0.4812091503267974,59.0
+DXCM,DexCom,Health Care,2018,56.0,47.0,84.0,36.0,0.47467320261437906,60.0
+ZS,Zscaler,Information Technology,2018,52.0,62.0,69.0,49.0,0.4742647058823529,61.0
+MRNA,Moderna,Health Care,2018,28.0,89.0,80.0,25.0,0.47263071895424835,62.0
+ORLY,O'Reilly Automotive,Consumer Discretionary,2018,79.0,13.0,55.0,79.0,0.47099673202614384,63.0
+ADBE,Adobe Inc.,Information Technology,2018,99.0,34.0,16.0,62.0,0.47017973856209155,64.0
+MTCH,Match Group,Communication Services,2018,34.0,90.0,34.0,68.0,0.4677287581699347,65.0
+ANSS,Ansys,Information Technology,2018,67.0,84.0,26.0,58.0,0.46568627450980393,66.0
+AMZN,Amazon,Consumer Discretionary,2018,101.0,80.0,5.0,52.0,0.46486928104575165,67.0
+ISRG,Intuitive Surgical,Health Care,2018,92.0,78.0,39.0,18.0,0.457516339869281,68.0
+CSX,CSX Corporation,Industrials,2018,22.0,82.0,58.0,90.0,0.4534313725490196,69.0
+CMCSA,Comcast,Communication Services,2018,8.0,58.0,86.0,97.0,0.45098039215686275,70.0
+PEP,PepsiCo,Consumer Staples,2018,41.0,55.0,70.0,83.0,0.44485294117647056,71.0
+CRWD,CrowdStrike,Information Technology,2018,62.0,68.0,67.0,54.0,0.4440359477124183,72.0
+SNPS,Synopsys,Information Technology,2018,68.0,81.0,41.0,65.0,0.4375,73.0
+MCHP,Microchip Technology,Information Technology,2018,78.0,72.0,27.0,74.0,0.43586601307189543,74.0
+NFLX,Netflix,Communication Services,2018,91.0,85.0,7.0,75.0,0.43300653594771243,75.0
+COST,Costco,Consumer Staples,2018,75.0,65.0,80.0,31.0,0.43259803921568624,76.0
+TEAM,Atlassian,Information Technology,2018,94.0,74.0,27.0,55.0,0.43137254901960786,77.0
+PDD,Pinduoduo,Consumer Discretionary,2018,30.0,77.0,72.0,84.0,0.4313725490196078,78.0
+VRSN,Verisign,Information Technology,2018,84.0,57.0,75.0,45.0,0.423202614379085,79.0
+ADSK,Autodesk,Information Technology,2018,40.0,64.0,97.0,61.0,0.41748366013071897,80.0
+CSCO,Cisco,Information Technology,2018,38.0,66.0,96.0,67.0,0.4084967320261438,81.0
+PANW,Palo Alto Networks,Information Technology,2018,93.0,83.0,12.0,82.0,0.40727124183006536,82.0
+MSFT,Microsoft,Information Technology,2018,76.0,73.0,64.0,64.0,0.4035947712418301,83.0
+ILMN,"Illumina, Inc.",Health Care,2018,98.0,54.0,71.0,41.0,0.3978758169934641,84.0
+MAR,Marriott International,Consumer Discretionary,2018,72.0,38.0,79.0,87.0,0.38153594771241833,85.0
+EXC,Exelon,Utilities,2018,5.0,94.0,99.0,94.0,0.3684640522875817,86.0
+PYPL,PayPal,Information Technology,2018,85.0,86.0,62.0,63.0,0.36846405228758167,87.0
+PAYX,Paychex,Information Technology,2018,70.0,70.0,85.0,77.0,0.36274509803921573,88.0
+CHTR,Charter Communications,Communication Services,2018,34.0,95.0,37.0,102.0,0.3602941176470588,89.0
+TSLA,"Tesla, Inc.",Consumer Discretionary,2018,83.0,87.0,43.0,86.0,0.3500816993464052,90.0
+FISV,Fiserv,Information Technology,2018,81.0,74.0,74.0,91.0,0.3263888888888889,91.0
+MDLZ,Mondelez International,Consumer Staples,2018,31.0,99.0,90.0,93.0,0.32312091503267976,92.0
+KHC,Kraft Heinz,Consumer Staples,2018,1.0,102.0,102.0,88.0,0.32230392156862747,93.0
+CEG,Constellation Energy,Utilities,2018,17.0,96.0,94.0,99.0,0.32189542483660133,94.0
+XEL,Xcel Energy,Utilities,2018,20.0,96.0,93.0,100.0,0.32026143790849676,95.0
+AEP,American Electric Power,Utilities,2018,21.0,98.0,94.0,101.0,0.3125,96.0
+VRSK,Verisk,Industrials,2018,74.0,88.0,77.0,95.0,0.28145424836601307,97.0
+ADP,ADP,Information Technology,2018,90.0,92.0,89.0,80.0,0.27165032679738566,98.0
+MELI,MercadoLibre,Consumer Discretionary,2018,89.0,91.0,92.0,76.0,0.2667483660130719,99.0
+AZN,AstraZeneca,Health Care,2018,77.0,93.0,80.0,98.0,0.264297385620915,100.0
+KDP,Keurig Dr Pepper,Consumer Staples,2018,66.0,100.0,101.0,96.0,0.1895424836601307,101.0
+QCOM,Qualcomm,Information Technology,2018,97.0,101.0,100.0,92.0,0.1409313725490196,102.0
+BIIB,Biogen,Health Care,2019,7.0,2.0,14.0,59.0,0.7406045751633987,1.0
+NVDA,Nvidia,Information Technology,2019,54.0,4.0,13.0,2.0,0.7287581699346406,2.0
+NTES,NetEase,Communication Services,2019,15.0,14.0,10.0,36.0,0.7181372549019609,3.0
+ZM,Zoom Video Communications,Information Technology,2019,58.0,17.0,1.0,23.0,0.6977124183006536,4.0
+GOOG,Alphabet Inc. (Class C),Communication Services,2019,29.0,18.0,31.0,7.0,0.6703431372549019,5.0
+GOOGL,Alphabet Inc. (Class A),Communication Services,2019,30.0,18.0,31.0,7.0,0.6695261437908496,6.0
+BKNG,Booking Holdings,Consumer Discretionary,2019,35.0,1.0,15.0,63.0,0.667483660130719,7.0
+JD,JD.com,Consumer Discretionary,2019,43.0,48.0,2.0,29.0,0.6674836601307189,8.0
+REGN,Regeneron,Health Care,2019,21.0,5.0,63.0,18.0,0.6650326797385622,9.0
+KLAC,KLA Corporation,Information Technology,2019,20.0,6.0,45.0,57.0,0.6462418300653594,10.0
+ROST,Ross Stores,Consumer Discretionary,2019,38.0,11.0,56.0,5.0,0.6405228758169935,11.0
+CTSH,Cognizant,Information Technology,2019,12.0,25.0,80.0,4.0,0.6384803921568627,12.0
+LRCX,Lam Research,Information Technology,2019,14.0,3.0,84.0,34.0,0.6282679738562091,13.0
+QCOM,Qualcomm,Information Technology,2019,41.0,35.0,4.0,65.0,0.6262254901960784,14.0
+SGEN,Seagen,Health Care,2019,51.0,61.0,11.0,15.0,0.619281045751634,15.0
+META,Meta Platforms,Communication Services,2019,63.0,7.0,59.0,9.0,0.613970588235294,16.0
+CDNS,Cadence Design Systems,Information Technology,2019,56.0,34.0,20.0,23.0,0.6086601307189542,17.0
+LULU,Lululemon,Consumer Discretionary,2019,87.0,31.0,7.0,17.0,0.6082516339869282,18.0
+INTC,Intel,Information Technology,2019,5.0,32.0,61.0,60.0,0.6041666666666666,19.0
+MU,Micron Technology,Information Technology,2019,1.0,9.0,101.0,29.0,0.6029411764705883,20.0
+FAST,Fastenal,Industrials,2019,47.0,30.0,67.0,1.0,0.6017156862745099,21.0
+SWKS,Skyworks Solutions,Information Technology,2019,10.0,20.0,96.0,13.0,0.6004901960784313,22.0
+PCAR,Paccar,Industrials,2019,4.0,76.0,55.0,41.0,0.5988562091503268,23.0
+CPRT,Copart,Industrials,2019,76.0,27.0,22.0,14.0,0.5898692810457516,24.0
+ODFL,Old Dominion Freight Line,Industrials,2019,27.0,43.0,75.0,3.0,0.5894607843137255,25.0
+PDD,Pinduoduo,Consumer Discretionary,2019,31.0,83.0,5.0,53.0,0.5849673202614379,26.0
+MNST,Monster Beverage,Consumer Staples,2019,71.0,15.0,41.0,20.0,0.5833333333333334,27.0
+MSFT,Microsoft,Information Technology,2019,49.0,33.0,16.0,61.0,0.5776143790849674,28.0
+CRWD,CrowdStrike,Information Technology,2019,58.0,24.0,46.0,25.0,0.576797385620915,29.0
+ADSK,Autodesk,Information Technology,2019,79.0,37.0,6.0,49.0,0.5727124183006536,30.0
+WBA,Walgreens Boots Alliance,Consumer Staples,2019,3.0,13.0,93.0,58.0,0.5718954248366013,31.0
+AMAT,Applied Materials,Information Technology,2019,22.0,8.0,95.0,35.0,0.5641339869281046,32.0
+CTAS,Cintas,Industrials,2019,45.0,29.0,53.0,42.0,0.5612745098039216,33.0
+VRTX,Vertex Pharmaceuticals,Health Care,2019,88.0,36.0,26.0,16.0,0.5547385620915033,34.0
+ABNB,Airbnb,Consumer Discretionary,2019,65.0,40.0,39.0,31.0,0.5531045751633987,35.0
+INTU,Intuit,Information Technology,2019,86.0,28.0,42.0,10.0,0.551062091503268,36.0
+ALGN,Align Technology,Health Care,2019,98.0,16.0,29.0,11.0,0.5510620915032679,37.0
+DDOG,Datadog,Information Technology,2019,70.0,51.0,47.0,6.0,0.5494281045751633,38.0
+CMCSA,Comcast,Communication Services,2019,6.0,47.0,39.0,92.0,0.5457516339869282,39.0
+ZS,Zscaler,Information Technology,2019,49.0,50.0,36.0,45.0,0.5416666666666666,40.0
+DLTR,Dollar Tree,Consumer Discretionary,2019,9.0,41.0,100.0,27.0,0.5375816993464052,41.0
+SIRI,Sirius XM,Communication Services,2019,60.0,39.0,60.0,43.0,0.5179738562091503,42.0
+DXCM,DexCom,Health Care,2019,102.0,60.0,3.0,38.0,0.5134803921568628,43.0
+EA,Electronic Arts,Communication Services,2019,64.0,10.0,91.0,22.0,0.5081699346405228,44.0
+KHC,Kraft Heinz,Consumer Staples,2019,13.0,89.0,24.0,85.0,0.5065359477124183,45.0
+ISRG,Intuitive Surgical,Health Care,2019,91.0,66.0,19.0,32.0,0.5012254901960784,46.0
+FTNT,Fortinet,Information Technology,2019,99.0,21.0,27.0,44.0,0.4987745098039215,47.0
+LCID,Lucid Motors,Consumer Discretionary,2019,65.0,53.0,44.0,52.0,0.4963235294117647,48.0
+TMUS,T-Mobile US,Communication Services,2019,8.0,64.0,64.0,88.0,0.49550653594771243,49.0
+TXN,Texas Instruments,Information Technology,2019,62.0,22.0,92.0,19.0,0.4950980392156863,50.0
+CSCO,Cisco,Information Technology,2019,23.0,52.0,65.0,71.0,0.49264705882352944,51.0
+MRNA,Moderna,Health Care,2019,37.0,100.0,37.0,37.0,0.491421568627451,52.0
+EXC,Exelon,Utilities,2019,2.0,82.0,54.0,98.0,0.4901960784313725,53.0
+SPLK,Splunk,Information Technology,2019,34.0,55.0,71.0,55.0,0.48570261437908496,54.0
+ORLY,O'Reilly Automotive,Consumer Discretionary,2019,74.0,12.0,52.0,77.0,0.4848856209150327,55.0
+CEG,Constellation Energy,Utilities,2019,15.0,92.0,35.0,82.0,0.48447712418300654,56.0
+SNPS,Synopsys,Information Technology,2019,73.0,71.0,33.0,49.0,0.4844771241830065,57.0
+OKTA,"Okta, Inc.",Information Technology,2019,52.0,62.0,24.0,81.0,0.4820261437908497,58.0
+ADBE,Adobe Inc.,Information Technology,2019,96.0,22.0,16.0,70.0,0.4795751633986928,59.0
+COST,Costco,Consumer Staples,2019,72.0,65.0,57.0,39.0,0.4750816993464052,60.0
+GILD,Gilead Sciences,Health Care,2019,11.0,74.0,86.0,69.0,0.47467320261437906,61.0
+PANW,Palo Alto Networks,Information Technology,2019,92.0,70.0,8.0,73.0,0.4709967320261438,62.0
+AAPL,Apple Inc.,Information Technology,2019,28.0,56.0,79.0,62.0,0.47058823529411764,63.0
+VRSN,Verisign,Information Technology,2019,78.0,44.0,72.0,26.0,0.46854575163398693,64.0
+ILMN,"Illumina, Inc.",Health Care,2019,93.0,71.0,43.0,28.0,0.46568627450980393,65.0
+CSX,CSX Corporation,Industrials,2019,15.0,75.0,66.0,89.0,0.4624183006535948,66.0
+SBUX,Starbucks,Consumer Discretionary,2019,85.0,57.0,68.0,21.0,0.4624183006535948,66.0
+PYPL,PayPal,Information Technology,2019,83.0,69.0,20.0,67.0,0.45915032679738566,68.0
+NFLX,Netflix,Communication Services,2019,80.0,80.0,9.0,83.0,0.44730392156862747,69.0
+AMZN,Amazon,Consumer Discretionary,2019,97.0,78.0,18.0,54.0,0.43790849673202614,70.0
+AMGN,Amgen,Health Care,2019,39.0,42.0,70.0,91.0,0.43300653594771243,71.0
+TEAM,Atlassian,Information Technology,2019,55.0,68.0,34.0,93.0,0.43300653594771243,71.0
+WDAY,"Workday, Inc.",Information Technology,2019,48.0,63.0,73.0,71.0,0.43218954248366015,73.0
+KDP,Keurig Dr Pepper,Consumer Staples,2019,41.0,96.0,12.0,97.0,0.4313725490196078,74.0
+MCHP,Microchip Technology,Information Technology,2019,67.0,57.0,23.0,95.0,0.42810457516339867,75.0
+AMD,AMD,Information Technology,2019,101.0,38.0,77.0,12.0,0.42728758169934644,76.0
+ASML,ASML Holding,Information Technology,2019,81.0,54.0,81.0,33.0,0.42524509803921573,77.0
+HON,Honeywell,Industrials,2019,25.0,79.0,87.0,64.0,0.4215686274509804,78.0
+ANSS,Ansys,Information Technology,2019,84.0,87.0,48.0,46.0,0.4178921568627451,79.0
+MDLZ,Mondelez International,Consumer Staples,2019,24.0,93.0,50.0,90.0,0.41544117647058826,80.0
+ADI,Analog Devices,Information Technology,2019,35.0,44.0,89.0,79.0,0.4125816993464052,81.0
+PAYX,Paychex,Information Technology,2019,75.0,77.0,58.0,66.0,0.4125816993464052,81.0
+IDXX,Idexx Laboratories,Health Care,2019,100.0,26.0,48.0,75.0,0.4040032679738562,83.0
+AVGO,Broadcom Inc.,Information Technology,2019,53.0,49.0,76.0,84.0,0.4031862745098039,84.0
+ADP,ADP,Information Technology,2019,81.0,86.0,27.0,79.0,0.39828431372549017,85.0
+PEP,PepsiCo,Consumer Staples,2019,56.0,46.0,85.0,78.0,0.3966503267973856,86.0
+MTCH,Match Group,Communication Services,2019,68.0,87.0,62.0,68.0,0.39338235294117646,87.0
+DOCU,DocuSign,Information Technology,2019,44.0,59.0,102.0,48.0,0.39174836601307195,88.0
+CHTR,Charter Communications,Communication Services,2019,40.0,85.0,37.0,101.0,0.38929738562091504,89.0
+MRVL,Marvell Technology,Information Technology,2019,32.0,84.0,99.0,49.0,0.38684640522875824,90.0
+ATVI,Activision Blizzard,Communication Services,2019,46.0,81.0,98.0,47.0,0.3786764705882353,91.0
+TSLA,"Tesla, Inc.",Consumer Discretionary,2019,77.0,98.0,30.0,76.0,0.3737745098039216,92.0
+NXPI,NXP,Information Technology,2019,61.0,71.0,94.0,74.0,0.3631535947712418,93.0
+EBAY,eBay,Consumer Discretionary,2019,26.0,67.0,90.0,96.0,0.36151960784313725,94.0
+MELI,MercadoLibre,Consumer Discretionary,2019,89.0,97.0,74.0,40.0,0.3537581699346405,95.0
+XEL,Xcel Energy,Utilities,2019,18.0,95.0,77.0,100.0,0.34844771241830064,96.0
+FISV,Fiserv,Information Technology,2019,69.0,98.0,50.0,87.0,0.33986928104575165,97.0
+BIDU,Baidu,Communication Services,2019,32.0,102.0,97.0,56.0,0.3255718954248366,98.0
+AEP,American Electric Power,Utilities,2019,19.0,100.0,82.0,102.0,0.3169934640522876,99.0
+AZN,AstraZeneca,Health Care,2019,90.0,90.0,68.0,94.0,0.2806372549019608,100.0
+MAR,Marriott International,Consumer Discretionary,2019,95.0,91.0,88.0,85.0,0.22998366013071897,101.0
+VRSK,Verisk,Industrials,2019,94.0,94.0,83.0,99.0,0.21772875816993464,102.0
+REGN,Regeneron,Health Care,2020,12.0,2.0,11.0,20.0,0.8055555555555556,1.0
+VRTX,Vertex Pharmaceuticals,Health Care,2020,24.0,10.0,7.0,8.0,0.7806372549019607,2.0
+AMAT,Applied Materials,Information Technology,2020,11.0,3.0,23.0,15.0,0.7790032679738563,3.0
+JD,JD.com,Consumer Discretionary,2020,16.0,30.0,5.0,18.0,0.7565359477124183,4.0
+EA,Electronic Arts,Communication Services,2020,10.0,15.0,14.0,24.0,0.7479575163398693,5.0
+META,Meta Platforms,Communication Services,2020,33.0,4.0,17.0,9.0,0.7422385620915033,6.0
+INTC,Intel,Information Technology,2020,2.0,8.0,43.0,45.0,0.6940359477124183,7.0
+SGEN,Seagen,Health Care,2020,80.0,35.0,1.0,1.0,0.6887254901960784,8.0
+GOOG,Alphabet Inc. (Class C),Communication Services,2020,30.0,13.0,31.0,13.0,0.6776960784313726,9.0
+GOOGL,Alphabet Inc. (Class A),Communication Services,2020,30.0,13.0,31.0,13.0,0.6776960784313726,9.0
+LRCX,Lam Research,Information Technology,2020,22.0,5.0,45.0,27.0,0.6670751633986928,11.0
+EBAY,eBay,Consumer Discretionary,2020,17.0,23.0,6.0,83.0,0.6642156862745099,12.0
+MRVL,Marvell Technology,Information Technology,2020,4.0,44.0,30.0,57.0,0.6507352941176471,13.0
+AMD,AMD,Information Technology,2020,93.0,30.0,3.0,5.0,0.641748366013072,14.0
+BIIB,Biogen,Health Care,2020,5.0,1.0,77.0,59.0,0.6417483660130718,15.0
+DLTR,Dollar Tree,Consumer Discretionary,2020,18.0,21.0,22.0,60.0,0.6392973856209151,16.0
+LULU,Lululemon,Consumer Discretionary,2020,87.0,9.0,21.0,10.0,0.6348039215686274,17.0
+KLAC,KLA Corporation,Information Technology,2020,39.0,7.0,36.0,47.0,0.6147875816993464,18.0
+CPRT,Copart,Industrials,2020,60.0,24.0,41.0,12.0,0.6049836601307189,19.0
+ZM,Zoom Video Communications,Information Technology,2020,102.0,37.0,3.0,6.0,0.5996732026143791,20.0
+FAST,Fastenal,Industrials,2020,62.0,26.0,63.0,3.0,0.5935457516339869,21.0
+MNST,Monster Beverage,Consumer Staples,2020,66.0,26.0,34.0,16.0,0.5931372549019609,22.0
+ORLY,O'Reilly Automotive,Consumer Discretionary,2020,46.0,6.0,23.0,79.0,0.5919117647058824,23.0
+ODFL,Old Dominion Freight Line,Industrials,2020,46.0,48.0,64.0,2.0,0.5898692810457516,24.0
+ROST,Ross Stores,Consumer Discretionary,2020,32.0,12.0,53.0,51.0,0.5866013071895425,25.0
+MU,Micron Technology,Information Technology,2020,3.0,21.0,97.0,35.0,0.5751633986928104,26.0
+INTU,Intuit,Information Technology,2020,72.0,17.0,35.0,28.0,0.5718954248366013,27.0
+ATVI,Activision Blizzard,Communication Services,2020,42.0,72.0,18.0,37.0,0.571078431372549,28.0
+ASML,ASML Holding,Information Technology,2020,78.0,45.0,12.0,31.0,0.5706699346405228,29.0
+CTAS,Cintas,Industrials,2020,41.0,16.0,70.0,25.0,0.5694444444444444,30.0
+CSCO,Cisco,Information Technology,2020,13.0,24.0,76.0,53.0,0.5690359477124183,31.0
+FTNT,Fortinet,Information Technology,2020,96.0,11.0,16.0,44.0,0.5645424836601306,32.0
+ADSK,Autodesk,Information Technology,2020,97.0,28.0,7.0,43.0,0.5620915032679739,33.0
+NTES,NetEase,Communication Services,2020,43.0,51.0,47.0,28.0,0.5551470588235294,34.0
+CTSH,Cognizant,Information Technology,2020,25.0,42.0,80.0,11.0,0.551062091503268,35.0
+MSFT,Microsoft,Information Technology,2020,71.0,20.0,33.0,46.0,0.5506535947712419,36.0
+BIDU,Baidu,Communication Services,2020,8.0,73.0,57.0,56.0,0.5498366013071896,37.0
+CRWD,CrowdStrike,Information Technology,2020,44.0,62.0,48.0,21.0,0.548202614379085,38.0
+ADBE,Adobe Inc.,Information Technology,2020,88.0,18.0,19.0,48.0,0.5482026143790849,39.0
+TXN,Texas Instruments,Information Technology,2020,64.0,34.0,66.0,17.0,0.5416666666666666,40.0
+SWKS,Skyworks Solutions,Information Technology,2020,37.0,71.0,77.0,4.0,0.5330882352941176,41.0
+VRSN,Verisign,Information Technology,2020,68.0,38.0,55.0,30.0,0.5310457516339869,42.0
+ALGN,Align Technology,Health Care,2020,69.0,35.0,58.0,26.0,0.5277777777777778,43.0
+PAYX,Paychex,Information Technology,2020,26.0,41.0,62.0,64.0,0.5241013071895424,44.0
+PDD,Pinduoduo,Consumer Discretionary,2020,29.0,77.0,38.0,48.0,0.5228758169934641,45.0
+DXCM,DexCom,Health Care,2020,98.0,63.0,9.0,33.0,0.5183823529411765,46.0
+DOCU,DocuSign,Information Technology,2020,50.0,54.0,25.0,72.0,0.5159313725490197,47.0
+COST,Costco,Consumer Staples,2020,63.0,52.0,49.0,38.0,0.513888888888889,48.0
+CDNS,Cadence Design Systems,Information Technology,2020,91.0,29.0,46.0,23.0,0.5073529411764706,49.0
+SPLK,Splunk,Information Technology,2020,35.0,58.0,52.0,61.0,0.505718954248366,50.0
+AMGN,Amgen,Health Care,2020,23.0,32.0,59.0,88.0,0.502859477124183,51.0
+WDAY,"Workday, Inc.",Information Technology,2020,40.0,54.0,42.0,67.0,0.5016339869281046,52.0
+TEAM,Atlassian,Information Technology,2020,58.0,54.0,12.0,94.0,0.4930555555555555,53.0
+MCHP,Microchip Technology,Information Technology,2020,19.0,43.0,50.0,95.0,0.49060457516339867,54.0
+AMZN,Amazon,Consumer Discretionary,2020,93.0,66.0,10.0,54.0,0.4901960784313726,55.0
+MELI,MercadoLibre,Consumer Discretionary,2020,86.0,92.0,2.0,58.0,0.48733660130718953,56.0
+NVDA,Nvidia,Information Technology,2020,85.0,18.0,90.0,7.0,0.4865196078431373,57.0
+DDOG,Datadog,Information Technology,2020,76.0,64.0,40.0,41.0,0.47753267973856217,58.0
+IDXX,Idexx Laboratories,Health Care,2020,101.0,32.0,29.0,48.0,0.4758986928104575,59.0
+SNPS,Synopsys,Information Technology,2020,74.0,60.0,43.0,55.0,0.46486928104575165,60.0
+PYPL,PayPal,Information Technology,2020,89.0,61.0,15.0,75.0,0.4616013071895425,61.0
+QCOM,Qualcomm,Information Technology,2020,61.0,39.0,71.0,62.0,0.46119281045751637,62.0
+NFLX,Netflix,Communication Services,2020,80.0,67.0,20.0,70.0,0.4595588235294118,63.0
+ADP,ADP,Information Technology,2020,38.0,59.0,65.0,81.0,0.45057189542483655,64.0
+TSLA,"Tesla, Inc.",Consumer Discretionary,2020,84.0,95.0,25.0,38.0,0.4501633986928105,65.0
+CMCSA,Comcast,Communication Services,2020,9.0,53.0,84.0,93.0,0.4468954248366014,66.0
+CHTR,Charter Communications,Communication Services,2020,34.0,65.0,25.0,102.0,0.4456699346405229,67.0
+PEP,PepsiCo,Consumer Staples,2020,51.0,40.0,69.0,80.0,0.44321895424836605,68.0
+PCAR,Paccar,Industrials,2020,15.0,83.0,99.0,42.0,0.4415849673202614,69.0
+AVGO,Broadcom Inc.,Information Technology,2020,55.0,47.0,61.0,86.0,0.43749999999999994,70.0
+ABNB,Airbnb,Consumer Discretionary,2020,36.0,96.0,37.0,77.0,0.4325980392156863,71.0
+CSX,CSX Corporation,Industrials,2020,21.0,57.0,82.0,82.0,0.4321895424836601,72.0
+AZN,AstraZeneca,Health Care,2020,51.0,69.0,39.0,91.0,0.4248366013071896,73.0
+CEG,Constellation Energy,Utilities,2020,6.0,81.0,94.0,78.0,0.42401960784313725,74.0
+TMUS,T-Mobile US,Communication Services,2020,28.0,84.0,53.0,87.0,0.42320261437908496,75.0
+ADI,Analog Devices,Information Technology,2020,45.0,50.0,81.0,69.0,0.42075163398692805,76.0
+SIRI,Sirius XM,Communication Services,2020,75.0,49.0,87.0,40.0,0.41952614379084974,77.0
+AAPL,Apple Inc.,Information Technology,2020,82.0,68.0,51.0,63.0,0.41258169934640526,78.0
+AEP,American Electric Power,Utilities,2020,6.0,87.0,67.0,101.0,0.4121732026143791,79.0
+EXC,Exelon,Utilities,2020,1.0,82.0,86.0,98.0,0.41135620915032683,80.0
+MTCH,Match Group,Communication Services,2020,77.0,46.0,95.0,34.0,0.4056372549019608,81.0
+OKTA,"Okta, Inc.",Information Technology,2020,59.0,76.0,72.0,74.0,0.39338235294117646,82.0
+ZS,Zscaler,Information Technology,2020,56.0,74.0,79.0,68.0,0.39093137254901955,83.0
+MDLZ,Mondelez International,Consumer Staples,2020,20.0,89.0,75.0,89.0,0.3876633986928104,84.0
+MRNA,Moderna,Health Care,2020,51.0,101.0,60.0,66.0,0.3872549019607843,85.0
+FISV,Fiserv,Information Technology,2020,48.0,79.0,56.0,92.0,0.38725490196078427,86.0
+XEL,Xcel Energy,Utilities,2020,14.0,94.0,74.0,100.0,0.377859477124183,87.0
+ANSS,Ansys,Information Technology,2020,83.0,91.0,68.0,52.0,0.36560457516339867,88.0
+VRSK,Verisk,Industrials,2020,78.0,88.0,28.0,97.0,0.3627450980392157,89.0
+KDP,Keurig Dr Pepper,Consumer Staples,2020,27.0,93.0,73.0,96.0,0.3602941176470588,90.0
+WBA,Walgreens Boots Alliance,Consumer Staples,2020,57.0,75.0,89.0,71.0,0.35375816993464054,91.0
+HON,Honeywell,Industrials,2020,51.0,79.0,90.0,73.0,0.34354575163398693,92.0
+LCID,Lucid Motors,Consumer Discretionary,2020,65.0,98.0,102.0,19.0,0.3366013071895425,93.0
+ILMN,"Illumina, Inc.",Health Care,2020,90.0,78.0,96.0,32.0,0.33333333333333337,94.0
+ISRG,Intuitive Surgical,Health Care,2020,91.0,90.0,88.0,36.0,0.3272058823529412,95.0
+KHC,Kraft Heinz,Consumer Staples,2020,48.0,99.0,90.0,85.0,0.29901960784313725,96.0
+NXPI,NXP,Information Technology,2020,73.0,100.0,90.0,65.0,0.2900326797385621,97.0
+PANW,Palo Alto Networks,Information Technology,2020,95.0,69.0,83.0,84.0,0.2888071895424837,98.0
+GILD,Gilead Sciences,Health Care,2020,70.0,86.0,85.0,90.0,0.2875816993464052,99.0
+SBUX,Starbucks,Consumer Discretionary,2020,100.0,97.0,98.0,22.0,0.2810457516339869,100.0
+BKNG,Booking Holdings,Consumer Discretionary,2020,67.0,84.0,100.0,75.0,0.27450980392156865,101.0
+MAR,Marriott International,Consumer Discretionary,2020,99.0,102.0,101.0,99.0,0.08782679738562091,102.0
+REGN,Regeneron,Health Care,2021,3.0,1.0,3.0,5.0,0.9015522875816993,1.0
+GOOG,Alphabet Inc. (Class C),Communication Services,2021,33.0,8.0,7.0,6.0,0.7610294117647058,2.0
+GOOGL,Alphabet Inc. (Class A),Communication Services,2021,34.0,8.0,7.0,6.0,0.7602124183006536,3.0
+META,Meta Platforms,Communication Services,2021,30.0,4.0,24.0,8.0,0.7544934640522876,4.0
+MU,Micron Technology,Information Technology,2021,1.0,39.0,18.0,23.0,0.7348856209150326,5.0
+AMAT,Applied Materials,Information Technology,2021,31.0,10.0,16.0,20.0,0.7283496732026143,6.0
+QCOM,Qualcomm,Information Technology,2021,24.0,2.0,12.0,58.0,0.7275326797385621,7.0
+SWKS,Skyworks Solutions,Information Technology,2021,19.0,42.0,9.0,16.0,0.7226307189542484,8.0
+MRNA,Moderna,Health Care,2021,10.0,6.0,59.0,10.0,0.7136437908496732,9.0
+LRCX,Lam Research,Information Technology,2021,50.0,7.0,10.0,22.0,0.7083333333333334,10.0
+CTSH,Cognizant,Information Technology,2021,16.0,29.0,39.0,10.0,0.6821895424836601,11.0
+SIRI,Sirius XM,Communication Services,2021,17.0,36.0,17.0,38.0,0.6723856209150327,12.0
+VRTX,Vertex Pharmaceuticals,Health Care,2021,29.0,3.0,73.0,9.0,0.6683006535947712,13.0
+TXN,Texas Instruments,Information Technology,2021,39.0,13.0,29.0,14.0,0.6666666666666666,14.0
+ODFL,Old Dominion Freight Line,Industrials,2021,66.0,24.0,20.0,1.0,0.6629901960784315,15.0
+ORLY,O'Reilly Automotive,Consumer Discretionary,2021,59.0,5.0,38.0,24.0,0.6446078431372548,16.0
+DLTR,Dollar Tree,Consumer Discretionary,2021,13.0,17.0,50.0,48.0,0.6417483660130718,17.0
+AMD,AMD,Information Technology,2021,89.0,19.0,13.0,4.0,0.6299019607843138,18.0
+PCAR,Paccar,Industrials,2021,6.0,70.0,33.0,34.0,0.6176470588235294,19.0
+KLAC,KLA Corporation,Information Technology,2021,45.0,22.0,23.0,40.0,0.616421568627451,20.0
+ZM,Zoom Video Communications,Information Technology,2021,100.0,38.0,1.0,3.0,0.613562091503268,21.0
+INTC,Intel,Information Technology,2021,2.0,15.0,91.0,41.0,0.5972222222222222,22.0
+CPRT,Copart,Industrials,2021,64.0,28.0,35.0,12.0,0.5951797385620915,23.0
+NTES,NetEase,Communication Services,2021,32.0,46.0,48.0,27.0,0.59109477124183,24.0
+ATVI,Activision Blizzard,Communication Services,2021,12.0,50.0,68.0,30.0,0.5902777777777778,25.0
+WBA,Walgreens Boots Alliance,Consumer Staples,2021,9.0,70.0,27.0,66.0,0.5812908496732025,26.0
+PDD,Pinduoduo,Consumer Discretionary,2021,70.0,64.0,5.0,36.0,0.5784313725490197,27.0
+AAPL,Apple Inc.,Information Technology,2021,64.0,21.0,15.0,70.0,0.5714869281045751,28.0
+NVDA,Nvidia,Information Technology,2021,95.0,30.0,14.0,21.0,0.5657679738562092,29.0
+SBUX,Starbucks,Consumer Discretionary,2021,72.0,80.0,11.0,19.0,0.5637254901960784,30.0
+ALGN,Align Technology,Health Care,2021,83.0,20.0,28.0,25.0,0.5633169934640523,31.0
+MSFT,Microsoft,Information Technology,2021,63.0,18.0,46.0,45.0,0.5531045751633986,32.0
+MNST,Monster Beverage,Consumer Staples,2021,61.0,26.0,65.0,18.0,0.5465686274509803,33.0
+FAST,Fastenal,Industrials,2021,68.0,27.0,78.0,2.0,0.5445261437908497,34.0
+CMCSA,Comcast,Communication Services,2021,4.0,35.0,57.0,88.0,0.5408496732026145,35.0
+AVGO,Broadcom Inc.,Information Technology,2021,43.0,32.0,31.0,74.0,0.5310457516339869,36.0
+CRWD,CrowdStrike,Information Technology,2021,49.0,67.0,21.0,59.0,0.5236928104575164,37.0
+CSX,CSX Corporation,Industrials,2021,23.0,53.0,39.0,80.0,0.5208333333333334,38.0
+ASML,ASML Holding,Information Technology,2021,85.0,32.0,24.0,46.0,0.5183823529411765,39.0
+GILD,Gilead Sciences,Health Care,2021,8.0,58.0,58.0,84.0,0.5110294117647058,40.0
+INTU,Intuit,Information Technology,2021,75.0,37.0,54.0,28.0,0.5098039215686274,41.0
+COST,Costco,Consumer Staples,2021,67.0,43.0,53.0,39.0,0.5093954248366013,42.0
+CSCO,Cisco,Information Technology,2021,22.0,32.0,93.0,48.0,0.508169934640523,43.0
+EBAY,eBay,Consumer Discretionary,2021,27.0,84.0,43.0,68.0,0.4995915032679739,44.0
+AMZN,Amazon,Consumer Discretionary,2021,71.0,61.0,30.0,47.0,0.497140522875817,45.0
+CTAS,Cintas,Industrials,2021,55.0,31.0,71.0,43.0,0.49673202614379086,46.0
+ISRG,Intuitive Surgical,Health Care,2021,87.0,70.0,19.0,33.0,0.4963235294117647,47.0
+LULU,Lululemon,Consumer Discretionary,2021,88.0,11.0,86.0,13.0,0.4897875816993464,48.0
+CDNS,Cadence Design Systems,Information Technology,2021,93.0,13.0,63.0,25.0,0.48488562091503273,49.0
+BIDU,Baidu,Communication Services,2021,14.0,75.0,88.0,51.0,0.4820261437908496,50.0
+NXPI,NXP,Information Technology,2021,44.0,74.0,37.0,65.0,0.48161764705882354,51.0
+DDOG,Datadog,Information Technology,2021,74.0,60.0,42.0,44.0,0.4816176470588235,52.0
+ADBE,Adobe Inc.,Information Technology,2021,90.0,12.0,52.0,53.0,0.4799836601307189,53.0
+NFLX,Netflix,Communication Services,2021,69.0,51.0,31.0,73.0,0.4714052287581699,54.0
+TSLA,"Tesla, Inc.",Consumer Discretionary,2021,99.0,98.0,2.0,29.0,0.47058823529411764,55.0
+KHC,Kraft Heinz,Consumer Staples,2021,25.0,81.0,46.0,85.0,0.4693627450980392,56.0
+MDLZ,Mondelez International,Consumer Staples,2021,21.0,58.0,62.0,86.0,0.4693627450980392,56.0
+CHTR,Charter Communications,Communication Services,2021,28.0,40.0,44.0,102.0,0.46691176470588236,58.0
+BIIB,Biogen,Health Care,2021,17.0,44.0,98.0,63.0,0.46527777777777773,59.0
+IDXX,Idexx Laboratories,Health Care,2021,97.0,16.0,45.0,55.0,0.46241830065359474,60.0
+JD,JD.com,Consumer Discretionary,2021,41.0,97.0,79.0,15.0,0.4575163398692811,61.0
+VRSN,Verisign,Information Technology,2021,73.0,41.0,80.0,32.0,0.45710784313725494,62.0
+WDAY,"Workday, Inc.",Information Technology,2021,84.0,57.0,26.0,69.0,0.4542483660130719,63.0
+DOCU,DocuSign,Information Technology,2021,51.0,48.0,56.0,81.0,0.44526143790849676,64.0
+KDP,Keurig Dr Pepper,Consumer Staples,2021,20.0,88.0,51.0,93.0,0.4448529411764706,65.0
+MELI,MercadoLibre,Consumer Discretionary,2021,102.0,77.0,4.0,66.0,0.44199346405228757,66.0
+SNPS,Synopsys,Information Technology,2021,80.0,55.0,61.0,50.0,0.434640522875817,67.0
+PEP,PepsiCo,Consumer Staples,2021,57.0,46.0,64.0,79.0,0.43300653594771243,68.0
+MTCH,Match Group,Communication Services,2021,81.0,49.0,80.0,31.0,0.43218954248366015,69.0
+FTNT,Fortinet,Information Technology,2021,101.0,23.0,39.0,64.0,0.4301470588235294,70.0
+ADSK,Autodesk,Information Technology,2021,96.0,25.0,22.0,92.0,0.428921568627451,71.0
+HON,Honeywell,Industrials,2021,37.0,79.0,67.0,72.0,0.42892156862745096,72.0
+FISV,Fiserv,Information Technology,2021,36.0,65.0,60.0,90.0,0.4215686274509804,73.0
+ILMN,"Illumina, Inc.",Health Care,2021,75.0,95.0,49.0,42.0,0.4203431372549019,74.0
+EA,Electronic Arts,Communication Services,2021,60.0,61.0,97.0,37.0,0.40808823529411764,75.0
+CEG,Constellation Energy,Utilities,2021,11.0,90.0,92.0,81.0,0.40727124183006536,76.0
+AEP,American Electric Power,Utilities,2021,5.0,87.0,69.0,101.0,0.40604575163398693,77.0
+ABNB,Airbnb,Consumer Discretionary,2021,94.0,81.0,34.0,52.0,0.4048202614379085,78.0
+SGEN,Seagen,Health Care,2021,40.0,86.0,101.0,17.0,0.4040032679738562,79.0
+ADI,Analog Devices,Information Technology,2021,56.0,92.0,66.0,61.0,0.4035947712418301,80.0
+PAYX,Paychex,Information Technology,2021,57.0,63.0,90.0,60.0,0.4015522875816993,81.0
+AMGN,Amgen,Health Care,2021,37.0,45.0,94.0,87.0,0.39624183006535946,82.0
+EXC,Exelon,Utilities,2021,7.0,94.0,82.0,97.0,0.39215686274509803,83.0
+OKTA,"Okta, Inc.",Information Technology,2021,47.0,85.0,55.0,89.0,0.389297385620915,84.0
+BKNG,Booking Holdings,Consumer Discretionary,2021,91.0,69.0,36.0,71.0,0.3876633986928104,85.0
+ZS,Zscaler,Information Technology,2021,48.0,83.0,75.0,78.0,0.37785947712418294,86.0
+PYPL,PayPal,Information Technology,2021,77.0,54.0,77.0,75.0,0.3762254901960784,87.0
+MAR,Marriott International,Consumer Discretionary,2021,86.0,100.0,5.0,95.0,0.375,88.0
+TEAM,Atlassian,Information Technology,2021,54.0,52.0,84.0,91.0,0.37459150326797386,89.0
+XEL,Xcel Energy,Utilities,2021,15.0,96.0,73.0,100.0,0.3737745098039216,90.0
+MRVL,Marvell Technology,Information Technology,2021,34.0,93.0,96.0,62.0,0.3680555555555555,91.0
+TMUS,T-Mobile US,Communication Services,2021,26.0,88.0,89.0,94.0,0.35825163398692805,92.0
+ADP,ADP,Information Technology,2021,62.0,66.0,83.0,81.0,0.35702614379084974,93.0
+ANSS,Ansys,Information Technology,2021,82.0,91.0,71.0,57.0,0.35498366013071897,94.0
+DXCM,DexCom,Health Care,2021,98.0,68.0,75.0,35.0,0.35294117647058826,95.0
+AZN,AstraZeneca,Health Care,2021,53.0,99.0,70.0,77.0,0.35089869281045755,96.0
+PANW,Palo Alto Networks,Information Technology,2021,46.0,73.0,85.0,96.0,0.3353758169934641,97.0
+SPLK,Splunk,Information Technology,2021,42.0,78.0,100.0,76.0,0.3218954248366013,98.0
+LCID,Lucid Motors,Consumer Discretionary,2021,52.0,102.0,102.0,55.0,0.27450980392156865,99.0
+VRSK,Verisk,Industrials,2021,79.0,75.0,87.0,98.0,0.2720588235294118,100.0
+MCHP,Microchip Technology,Information Technology,2021,78.0,56.0,95.0,99.0,0.2712418300653595,101.0
+ROST,Ross Stores,Consumer Discretionary,2021,92.0,101.0,99.0,54.0,0.2312091503267974,102.0
+REGN,Regeneron,Health Care,2022,3.0,1.0,2.0,6.0,0.8982843137254901,1.0
+GOOG,Alphabet Inc. (Class C),Communication Services,2022,38.0,9.0,7.0,7.0,0.7455065359477124,2.0
+GOOGL,Alphabet Inc. (Class A),Communication Services,2022,41.0,9.0,7.0,7.0,0.7446895424836601,3.0
+META,Meta Platforms,Communication Services,2022,33.0,6.0,25.0,10.0,0.7410130718954248,4.0
+MU,Micron Technology,Information Technology,2022,1.0,35.0,21.0,23.0,0.7291666666666666,5.0
+QCOM,Qualcomm,Information Technology,2022,30.0,4.0,14.0,57.0,0.7128267973856208,6.0
+LRCX,Lam Research,Information Technology,2022,17.0,2.0,51.0,22.0,0.7099673202614378,7.0
+AMAT,Applied Materials,Information Technology,2022,37.0,11.0,17.0,19.0,0.7095588235294118,8.0
+MRNA,Moderna,Health Care,2022,9.0,8.0,60.0,12.0,0.7079248366013072,9.0
+SWKS,Skyworks Solutions,Information Technology,2022,22.0,43.0,9.0,17.0,0.7066993464052288,10.0
+KLAC,KLA Corporation,Information Technology,2022,36.0,3.0,19.0,53.0,0.6911764705882353,11.0
+CTSH,Cognizant,Information Technology,2022,16.0,30.0,42.0,9.0,0.6719771241830065,12.0
+ZM,Zoom Video Communications,Information Technology,2022,66.0,28.0,10.0,5.0,0.6576797385620915,13.0
+SIRI,Sirius XM,Communication Services,2022,18.0,36.0,20.0,37.0,0.6568627450980393,14.0
+VRTX,Vertex Pharmaceuticals,Health Care,2022,32.0,5.0,78.0,11.0,0.6503267973856208,15.0
+LULU,Lululemon,Consumer Discretionary,2022,78.0,12.0,16.0,14.0,0.6458333333333334,16.0
+TXN,Texas Instruments,Information Technology,2022,47.0,14.0,31.0,16.0,0.645016339869281,17.0
+ODFL,Old Dominion Freight Line,Industrials,2022,69.0,26.0,23.0,1.0,0.6446078431372549,18.0
+CPRT,Copart,Industrials,2022,46.0,22.0,46.0,4.0,0.6376633986928104,19.0
+ORLY,O'Reilly Automotive,Consumer Discretionary,2022,60.0,6.0,38.0,25.0,0.6331699346405228,20.0
+AMD,AMD,Information Technology,2022,90.0,20.0,12.0,3.0,0.6266339869281046,21.0
+ROST,Ross Stores,Consumer Discretionary,2022,26.0,47.0,28.0,38.0,0.6115196078431373,22.0
+NVDA,Nvidia,Information Technology,2022,94.0,24.0,4.0,13.0,0.6086601307189543,23.0
+PCAR,Paccar,Industrials,2022,7.0,71.0,35.0,32.0,0.6053921568627452,24.0
+INTC,Intel,Information Technology,2022,2.0,15.0,97.0,40.0,0.5866013071895424,25.0
+NTES,NetEase,Communication Services,2022,34.0,48.0,50.0,24.0,0.5788398692810457,26.0
+ATVI,Activision Blizzard,Communication Services,2022,11.0,52.0,73.0,29.0,0.5755718954248366,27.0
+PDD,Pinduoduo,Consumer Discretionary,2022,74.0,64.0,5.0,34.0,0.5661764705882353,28.0
+AAPL,Apple Inc.,Information Technology,2022,64.0,21.0,15.0,71.0,0.565359477124183,29.0
+MSFT,Microsoft,Information Technology,2022,55.0,13.0,57.0,39.0,0.5637254901960784,30.0
+CSCO,Cisco,Information Technology,2022,12.0,23.0,86.0,43.0,0.5616830065359477,31.0
+WBA,Walgreens Boots Alliance,Consumer Staples,2022,10.0,76.0,29.0,69.0,0.5616830065359477,31.0
+DOCU,DocuSign,Information Technology,2022,51.0,38.0,11.0,79.0,0.5588235294117648,33.0
+SBUX,Starbucks,Consumer Discretionary,2022,73.0,83.0,13.0,18.0,0.5498366013071896,34.0
+ALGN,Align Technology,Health Care,2022,87.0,19.0,30.0,27.0,0.5441176470588235,35.0
+CMCSA,Comcast,Communication Services,2022,4.0,36.0,62.0,91.0,0.5245098039215687,36.0
+MCHP,Microchip Technology,Information Technology,2022,43.0,55.0,23.0,80.0,0.5241013071895425,37.0
+MNST,Monster Beverage,Consumer Staples,2022,62.0,31.0,72.0,21.0,0.5212418300653595,38.0
+FAST,Fastenal,Industrials,2022,72.0,32.0,89.0,2.0,0.5159313725490197,39.0
+CSX,CSX Corporation,Industrials,2022,24.0,53.0,39.0,83.0,0.5126633986928104,40.0
+DLTR,Dollar Tree,Consumer Discretionary,2022,21.0,33.0,94.0,49.0,0.5114379084967321,41.0
+AVGO,Broadcom Inc.,Information Technology,2022,53.0,34.0,33.0,75.0,0.5085784313725491,42.0
+ASML,ASML Holding,Information Technology,2022,86.0,41.0,27.0,45.0,0.4950980392156863,43.0
+GILD,Gilead Sciences,Health Care,2022,8.0,62.0,63.0,86.0,0.49468954248366015,44.0
+CTAS,Cintas,Industrials,2022,67.0,29.0,67.0,36.0,0.4934640522875817,45.0
+COST,Costco,Consumer Staples,2022,70.0,45.0,55.0,41.0,0.4897875816993464,46.0
+EBAY,eBay,Consumer Discretionary,2022,28.0,85.0,46.0,68.0,0.48733660130718953,47.0
+AMZN,Amazon,Consumer Discretionary,2022,77.0,63.0,32.0,50.0,0.47467320261437906,48.0
+ISRG,Intuitive Surgical,Health Care,2022,89.0,76.0,22.0,33.0,0.47181372549019607,49.0
+TEAM,Atlassian,Information Technology,2022,52.0,40.0,59.0,72.0,0.4709967320261438,50.0
+TSLA,"Tesla, Inc.",Consumer Discretionary,2022,99.0,98.0,1.0,28.0,0.4701797385620915,51.0
+INTU,Intuit,Information Technology,2022,65.0,42.0,61.0,54.0,0.4697712418300654,52.0
+DDOG,Datadog,Information Technology,2022,75.0,61.0,43.0,44.0,0.4693627450980392,53.0
+CDNS,Cadence Design Systems,Information Technology,2022,96.0,18.0,68.0,26.0,0.4652777777777778,54.0
+ADBE,Adobe Inc.,Information Technology,2022,91.0,15.0,57.0,47.0,0.4636437908496732,55.0
+EA,Electronic Arts,Communication Services,2022,58.0,66.0,51.0,58.0,0.46282679738562094,56.0
+PAYX,Paychex,Information Technology,2022,63.0,56.0,55.0,59.0,0.46241830065359485,57.0
+WDAY,"Workday, Inc.",Information Technology,2022,81.0,59.0,26.0,70.0,0.4607843137254903,58.0
+BIDU,Baidu,Communication Services,2022,15.0,78.0,93.0,51.0,0.4599673202614379,59.0
+KHC,Kraft Heinz,Consumer Staples,2022,27.0,83.0,43.0,85.0,0.4579248366013071,60.0
+NXPI,NXP,Information Technology,2022,54.0,81.0,41.0,64.0,0.45669934640522875,61.0
+MDLZ,Mondelez International,Consumer Staples,2022,25.0,60.0,65.0,88.0,0.45465686274509803,62.0
+BIIB,Biogen,Health Care,2022,19.0,46.0,100.0,62.0,0.45343137254901955,63.0
+NFLX,Netflix,Communication Services,2022,71.0,54.0,34.0,76.0,0.4526143790849674,64.0
+JD,JD.com,Consumer Discretionary,2022,44.0,96.0,84.0,15.0,0.45138888888888884,65.0
+CHTR,Charter Communications,Communication Services,2022,31.0,39.0,49.0,102.0,0.45016339869281047,66.0
+IDXX,Idexx Laboratories,Health Care,2022,97.0,17.0,46.0,56.0,0.44934640522875813,67.0
+MELI,MercadoLibre,Consumer Discretionary,2022,102.0,78.0,3.0,67.0,0.4387254901960784,68.0
+VRSN,Verisign,Information Technology,2022,76.0,44.0,91.0,31.0,0.43709150326797386,69.0
+CRWD,CrowdStrike,Information Technology,2022,48.0,65.0,76.0,63.0,0.4334150326797386,70.0
+MRVL,Marvell Technology,Information Technology,2022,35.0,101.0,43.0,65.0,0.43259803921568624,71.0
+KDP,Keurig Dr Pepper,Consumer Staples,2022,20.0,87.0,54.0,94.0,0.4309640522875817,72.0
+OKTA,"Okta, Inc.",Information Technology,2022,23.0,91.0,87.0,61.0,0.42892156862745096,73.0
+FTNT,Fortinet,Information Technology,2022,101.0,24.0,40.0,66.0,0.4207516339869281,74.0
+MTCH,Match Group,Communication Services,2022,82.0,48.0,88.0,30.0,0.4187091503267974,75.0
+HON,Honeywell,Industrials,2022,42.0,75.0,71.0,74.0,0.4170751633986929,76.0
+ZS,Zscaler,Information Technology,2022,49.0,70.0,69.0,78.0,0.40972222222222227,77.0
+PEP,PepsiCo,Consumer Staples,2022,61.0,50.0,75.0,81.0,0.4089052287581699,78.0
+ABNB,Airbnb,Consumer Discretionary,2022,92.0,78.0,36.0,47.0,0.40808823529411764,79.0
+FISV,Fiserv,Information Technology,2022,38.0,68.0,64.0,90.0,0.40727124183006536,80.0
+SNPS,Synopsys,Information Technology,2022,84.0,58.0,66.0,52.0,0.40604575163398693,81.0
+ILMN,"Illumina, Inc.",Health Care,2022,78.0,95.0,53.0,42.0,0.40155228758169925,82.0
+SGEN,Seagen,Health Care,2022,45.0,89.0,101.0,20.0,0.39052287581699346,83.0
+CEG,Constellation Energy,Utilities,2022,13.0,89.0,98.0,84.0,0.39011437908496727,84.0
+ADI,Analog Devices,Information Technology,2022,59.0,92.0,74.0,60.0,0.389297385620915,85.0
+AEP,American Electric Power,Utilities,2022,5.0,86.0,80.0,101.0,0.38398692810457513,86.0
+BKNG,Booking Holdings,Consumer Discretionary,2022,92.0,71.0,37.0,73.0,0.38112745098039214,87.0
+EXC,Exelon,Utilities,2022,6.0,94.0,90.0,97.0,0.37581699346405234,88.0
+AMGN,Amgen,Health Care,2022,38.0,50.0,99.0,89.0,0.3758169934640523,89.0
+PANW,Palo Alto Networks,Information Technology,2022,95.0,67.0,17.0,98.0,0.369281045751634,90.0
+MAR,Marriott International,Consumer Discretionary,2022,87.0,100.0,5.0,95.0,0.3639705882352941,91.0
+XEL,Xcel Energy,Utilities,2022,14.0,97.0,79.0,100.0,0.3558006535947712,92.0
+PYPL,PayPal,Information Technology,2022,80.0,57.0,82.0,77.0,0.3545751633986929,93.0
+ADP,ADP,Information Technology,2022,68.0,69.0,70.0,93.0,0.3370098039215686,94.0
+SPLK,Splunk,Information Technology,2022,56.0,74.0,92.0,87.0,0.3366013071895425,95.0
+ANSS,Ansys,Information Technology,2022,84.0,93.0,81.0,46.0,0.33619281045751637,96.0
+DXCM,DexCom,Health Care,2022,98.0,71.0,82.0,35.0,0.33619281045751637,96.0
+TMUS,T-Mobile US,Communication Services,2022,29.0,87.0,96.0,96.0,0.33455882352941174,98.0
+AZN,AstraZeneca,Health Care,2022,57.0,99.0,77.0,82.0,0.33169934640522875,99.0
+ADSK,Autodesk,Information Technology,2022,100.0,27.0,84.0,92.0,0.2896241830065359,100.0
+LCID,Lucid Motors,Consumer Discretionary,2022,50.0,102.0,102.0,55.0,0.2785947712418301,101.0
+VRSK,Verisk,Industrials,2022,83.0,82.0,95.0,99.0,0.2446895424836601,102.0

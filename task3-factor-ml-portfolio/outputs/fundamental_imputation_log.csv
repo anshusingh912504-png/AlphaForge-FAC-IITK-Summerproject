@@ -1,0 +1,13 @@
+metric,missing_raw,missing_after_carry_forward,missing_after_sector_median,missing_final
+price_to_earnings_ratio,203,120,0,0
+price_to_book_ratio,144,65,0,0
+enterprise_value_to_ebitda,133,57,0,0
+rate_of_return,226,147,0,0
+gross_profit_to_assets,108,32,0,0
+earning_yield_greenblatt,124,48,0,0
+yoy_eps_growth,135,44,0,0
+yoy_revenue_growth,111,33,0,0
+yoy_ebitda_growth,116,34,0,0
+debt_to_equity,151,75,0,0
+current_ratio,108,32,0,0
+asset_turnover,109,33,0,0

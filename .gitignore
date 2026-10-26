@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Data files — large datasets not committed
+# (add exceptions below if needed)
+# task2-btc-alpha-forge/notebooks/btc_alpha_master_2014_2026.csv
+
+# Django
+db.sqlite3
+*.sqlite3
+/quantdash-webapp/staticfiles/
+/quantdash-webapp/media/
+
+# Logs
+*.log

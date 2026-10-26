@@ -1,0 +1,30 @@
+{
+  "ML_Dynamic_Weight": {
+    "alpha_monthly": 0.0016989659982277832,
+    "beta_MKT_RF": -0.06177150370545825,
+    "beta_SMB": -0.25986636648226863,
+    "beta_HML": -0.9131911806894564,
+    "R2": 0.5074147219436004,
+    "alpha_annualized": 0.02057918304371875,
+    "outperforms_ff3": true,
+    "total_return": -0.1168914727654502,
+    "annualized_return": -0.12681499866830437,
+    "annualized_vol": 0.2008936026059276,
+    "sharpe_ratio": -0.5787009400776105,
+    "max_drawdown": -0.20210329375567893
+  },
+  "Equal_Weight": {
+    "alpha_monthly": 0.0018195396861069302,
+    "beta_MKT_RF": -0.061749065351923815,
+    "beta_SMB": -0.29957260668841906,
+    "beta_HML": -0.9025367029876719,
+    "R2": 0.49376538100410583,
+    "alpha_annualized": 0.0220543147818153,
+    "outperforms_ff3": true,
+    "total_return": -0.1134599187198736,
+    "annualized_return": -0.12311289817262949,
+    "annualized_vol": 0.19984047856634551,
+    "sharpe_ratio": -0.5619517109541688,
+    "max_drawdown": -0.19589389101607368
+  }
+}
